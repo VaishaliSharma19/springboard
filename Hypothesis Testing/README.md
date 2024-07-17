@@ -1,1 +1,1 @@
-
+The purpose of this analysis is to determine whether there is a significant difference in app ratings between the Apple Store and Google Play. By using app ratings as a quality metric, I aim to select the app store that offers higher quality apps for integration into a custom operating system. If the analysis shows no significant difference in app ratings, the decision can be made randomly, as the quality of apps on both platforms would be considered equivalent.
