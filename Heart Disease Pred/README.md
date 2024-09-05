@@ -20,4 +20,5 @@ I handled missing data, normalized features, and encoded categorical variables. 
 ### 4. [Modeling (Random Forest, XGBoost, Logistic Regression)](https://github.com/VaishaliSharma19/springboard/blob/4f0ea29c6009443dadefc4d9b2397fdc20f91bb0/Heart%20Disease%20Pred/Modeling_Frmingham_Dataset.ipynb):
 I applied three models: Random Forest, XGBoost, and Logistic Regression. Random Forest was selected for its accuracy after hyperparameter tuning, while XGBoost added further precision. Logistic Regression served as a baseline model. Random Forest performed best, achieving the highest accuracy in predicting CHD risk.
 
-This approach effectively predicted CHD and provided valuable health insights.
+## Results and Inference
+The results show that Logistic Regression had moderate performance with balanced precision and recall, but its lower accuracy and ROC-AUC suggest it may not be the best choice for this dataset. In contrast, Random Forest delivered excellent performance across all metrics, with high accuracy, recall, precision, and F1 score, making it the most reliable model. XGBoost also performed well, closely matching Random Forest, though with slightly lower precision. Overall, Random Forest stands out as the best model due to its superior performance, while XGBoost remains a strong alternative, and Logistic Regression lags behind the ensemble methods.
