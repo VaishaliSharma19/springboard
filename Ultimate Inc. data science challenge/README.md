@@ -1,4 +1,4 @@
-**Ultimate Data Science Challenge**
+<center> Ultimate Data Science Challenge </center>
 
 This analysis focuses on user login patterns over a specified period, aiming to uncover key trends in activity and engagement. Through visualizations of hourly, weekly, and monthly login data, I examined fluctuations in user behavior, identifying peak times and periods of lower activity. The objective was to interpret these patterns and provide actionable insights for optimizing user engagement, particularly in terms of timing and seasonality. This report also highlights potential areas for further investigation, such as anomalies in specific months, to help refine strategic efforts and improve overall user satisfaction.
 
