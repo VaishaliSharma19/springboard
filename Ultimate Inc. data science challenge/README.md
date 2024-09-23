@@ -60,13 +60,16 @@ However, a toll bridge, with a two-way toll, between the two cities causes drive
 
 ### Interpretation of Results and Recommendations
 
-1. **Result Interpretation**:
-   - If the **p-value** from the t-test is less than the significance level (α), reject the null hypothesis. This would suggest that the toll reimbursement has a significant effect on increasing the driver utilization rate in both cities.
-   - If the **p-value** is greater than α, fail to reject the null hypothesis, indicating no significant difference between the groups.
+Based on the model evaluations, the Random Forest algorithm demonstrates the most balanced performance for predicting whether a user will be active in their 6th month. While Naive Bayes and Logistic Regression have higher precision, they suffer from lower recall, meaning they fail to capture a significant number of active users. The Support Vector Machine (SVM) and K-Nearest Neighbors (KNN) models perform moderately well, with SVM showing improved recall and KNN providing a decent balance between precision and recall. However, Random Forest stands out with its strong recall of 0.60 and balanced precision of 0.59, making it the most reliable model for accurately identifying both retained and non-retained users. This balanced performance is critical in ensuring that the model minimizes false positives and false negatives, making Random Forest the optimal choice for Ultimate's user retention prediction.
 
-2. **Recommendations**:
-   - If the treatment is successful (significant increase in utilization), recommend making the toll reimbursement a permanent policy to encourage cross-city service and increase driver earnings.
-   - If the results are not significant, suggest further analysis, such as qualitative surveys of driver partners to understand their preferences and barriers to serving both cities.
+The validity of the models can be evaluated based on several performance metrics, such as accuracy, precision, recall, and the F1-score. These metrics provide insight into how well the model generalizes to new data and its ability to make reliable predictions.
+
+Random Forest Performance:
+Accuracy: 69.47% – This indicates that approximately 69% of the predictions made by the model are correct.
+Precision: 0.59 – This means that when the model predicts a user is retained, it is correct 59% of the time.
+Recall: 0.60 – This shows that the model is able to correctly identify 60% of the users who were actually retained.
+F1-Score: The F1-score balances precision and recall, indicating the model’s effectiveness at predicting active users. While the accuracy and precision are moderate, the recall score of 0.60 is notable as it suggests the model can successfully identify a substantial proportion of retained users. This balance of precision and recall, along with a decent accuracy, indicates that the model is reasonably valid for predicting user retention. However, improvements could be made by further tuning the model, using more features, or employing advanced techniques like ensemble learning.
+Key indicators such as the confusion matrix further support the model’s performance by showing a balance between true positives and true negatives. Random Forest’s ability to generalize well is reflected in its competitive performance across multiple metrics, making it a valid choice for predicting rider retention.
 
 ---
 
