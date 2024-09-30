@@ -25,5 +25,5 @@ Content Quality Over Quantity: While Netflix has significantly ramped up content
 The Tableau dashboard provides a comprehensive overview of Netflix’s content trends, allowing users to interact with the data and uncover insights at both global and regional levels. The findings indicate that while popular genres like Drama and Comedy dominate, niche genres such as Documentaries and Thrillers have higher viewer engagement. Netflix’s international content strategy is clearly reflected in the data, with countries like India and South Korea emerging as key contributors to its library.
 This analysis offers valuable insights for decision-makers at Netflix, helping to inform future content acquisitions, regional strategies, and production investments.
 
-Checkout my Dashboard [here] (https://public.tableau.com/shared/RKPDMGFNG?:display_count=n&:origin=viz_share_link)
+Checkout my Dashboard [here](https://public.tableau.com/shared/RKPDMGFNG?:display_count=n&:origin=viz_share_link)
 
